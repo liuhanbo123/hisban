@@ -172,15 +172,11 @@
   >
   > > 解决方法：
   > >
-  > >  先对kb4504418进行操作
+  > > 先对kb4504418进行操作
+  > >  
+  > > a. 解压KB4504418 msu 文件到c:\temp 文件夹
   > >
-  > >  a. 通过以下命令修复系统： 
-  > >
-  > > DISM /Online /Cleanup-Image /RestoreHealth
-  > >
-  > > b. 解压KB4504418 msu 文件到c:\temp 文件夹
-  > >
-  > > c. 用如下DISM 命令来安KB4504418. 
+  > > b. 用如下DISM 命令来安KB4504418. 
   > >
   > > Dism /online /add-package /packagepath:c:\temp\Windows8-RT-KB4504418-x64.cab
   > >
@@ -211,4 +207,6 @@
     ![net3.5-1](..\images\NET3.5-2.png)
 
 - windows 加域
+  
+  暂无
 
